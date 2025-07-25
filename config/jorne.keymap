@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2020 The ZMK Contributors
- *
+ *config/jorne.keymap
  * SPDX-License-Identifier: MIT
  */
 
@@ -17,9 +17,9 @@
 &lt { quick-tap-ms = <200>; };
 
 &mt {
-    quick-tap-ms = <140>;
+    quick-tap-ms = <100>;
     flavor = "balanced";
-    tapping-term-ms = <140>;
+    tapping-term-ms = <150>;
 };
 
 / {
